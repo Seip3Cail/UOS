@@ -1,0 +1,40 @@
+# ===== 压缩包：不进 git，改动一次就存一整份，仓库会迅速膨胀 =====
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.xz
+*.iso
+*.img
+
+# ===== 音视频 =====
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.flv
+*.mp3
+*.wav
+
+# ===== 模型与可执行文件 =====
+*.gguf
+*.safetensors
+*.onnx
+*.exe
+*.msi
+*.deb
+*.rpm
+*.AppImage
+
+# ===== 系统垃圾 =====
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+
+# ===== 临时文件 =====
+*.tmp
+*.log
+~$*
